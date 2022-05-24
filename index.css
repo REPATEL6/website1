@@ -1,0 +1,112 @@
+/* -----------------------------------------------------------Heading-Section---------------------------------------- */
+header{
+    margin: 22px 70px 12px 218px ;
+}
+.head-name{
+    font-size: 25px;
+    font-weight: 150;
+}
+
+.hmec{
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+
+.hmec a{
+    color: black;
+    font-size: 18px;
+    margin-bottom:10px ;
+    padding: 16px 20px 20px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #013a51;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------Image+Text section Starts----------------------------------- */
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.row{
+    background-color: #013a51;
+    display: flex;
+    padding: 65px 40px 65px 218px;
+}
+
+.text{
+    margin: 0 175px 0 30px;
+    line-height: 31px;
+    font-size: 16px;
+    color: white;
+}
+
+#content{
+    display: block;
+    text-align: justify;
+}
+
+/* --------------------------------------------office,social media,contact------------------------------------------------ */
+
+.icon{
+    background-color: #161e2d;
+    display: flex;
+    flex-direction: row; 
+    height: 53vh;
+    color: white;
+    font-size: 19px;
+}
+
+.office , .sm, .contact{
+    text-align: center;
+    margin: 110px auto 0 auto;
+}
+
+.fa-briefcase, .fa-square-share-nodes, .fa-address-book{
+    font-size: 35px;
+}
+
+/* -----------------------------------------------images grid--------------------------------------------------------------- */
+
+.img-coll{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10em;
+    padding-left: 205px;
+    padding-right: 100px;
+}
+
+img{
+    object-fit: cover;
+}
+
+/* .zoom{
+    transition: transform .5s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+} */
+
+/* img { 
+	transition: all .2s ease-in-out; 
+}
+img:hover { 
+    	transform: scale(1.5); 
+    } */
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+/* -----------------------------------------------------------Heading-Section---------------------------------------- */
+header{
+    margin: 22px 70px 12px 218px ;
+}
+.head-name{
+    font-size: 25px;
+    font-weight: 150;
+}
+
+.hmec{
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+
+.hmec a{
+    color: black;
+    font-size: 18px;
+    margin-bottom:10px ;
+    padding: 16px 20px 20px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #013a51;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------Menu image----------------------------------------------- */
+
+img{
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* -----------------------------------------------------------button of DF & AF------------------------------------------- */
+
+hr{
+    width: 40em;
+}
+
+table{
+    border: 1px solid black;
+}
+
+.f-but{
+    text-align: center;
+    margin-left: 6.9em;
+}
+
+#but, #but1{
+    border: none;
+    background-color: white;
+    font-size: 25px;
+}
+
+#but:hover, #but1:hover{
+    color: white;
+    background-color: #f3d89a;
+}
+
+#DF{
+    margin-left: auto;
+    margin-right: 19.7em;
+}
+
+td{
+    border-bottom: 1px solid grey;
+    padding: 12px 45px 13px 45px;
+    text-align: center;
+}
+
+/* -----------------------------------------------images grid--------------------------------------------------------------- */
+
+.img-coll{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10em;
+    padding-left: 205px;
+    padding-right: 100px;
+}
+
+/* .zoom{
+    transition: transform .5s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+} */
+
+/* img { 
+	transition: all .2s ease-in-out; 
+}
+img:hover { 
+    	transform: scale(1.5); 
+    } */
