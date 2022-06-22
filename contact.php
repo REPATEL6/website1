@@ -11,9 +11,9 @@
                 <span class="head-name">PATEL ICEGOLA™</span>
             
                 <span class="hmec">
-                <a href="index.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="exotic.html">Exotic Add-ons</a>
+                <a href="index.php">Home</a>
+                <a href="menu.php">Menu</a>
+                <a href="exotic.php">Exotic Add-ons</a>
                 <a href="contact.php">Contact</a>
                 </span>
 
